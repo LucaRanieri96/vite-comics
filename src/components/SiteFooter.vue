@@ -6,9 +6,9 @@ export default {
 
 <template>
     <footer id="app_footer">
-    <div class="footer_top p-3">
-      <div class="container d-flex gap-5">
-        <div class="m_right">
+    <div class="footer_top">
+      <div class="container d-flex gap-5 bg_dc py-5">
+        <div>
           <div id="dc_comics">
             <h5>DC COMICS</h5>
             <ul class="list-unstyled">
@@ -29,7 +29,7 @@ export default {
             </ul>
           </div>
         </div>
-        <div id="dc" class="m_right">
+        <div id="dc">
           <h5>DC</h5>
           <ul class="list-unstyled">
             <li>Terms Of Use</li>
