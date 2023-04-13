@@ -1,5 +1,11 @@
 <script>
+import HelloWorld from './components/HelloWorld.vue'
+import HelloWorldDue from './components/HelloWorldDue.vue'
 export default {
+  components: {
+    HelloWorld,
+    HelloWorldDue
+  },
   data() {
     return {
       message: "Hello world with Vite!",
@@ -9,6 +15,8 @@ export default {
 </script>
 
 <template>
+  <!-- <HelloWorld></HelloWorld>
+  <HelloWorldDue></HelloWorldDue> -->
   <header id="app_header" class="py-2">
     <div class="container d-flex align-items-center justify-content-between">
       <div class="logo">
@@ -65,11 +73,11 @@ export default {
 
   <footer id="app_footer">
     <div class="footer_top p-3">
-      <div class="container d-flex">
+      <div class="container d-flex gap-5">
         <div class="m_right">
           <div id="dc_comics">
             <h5>DC COMICS</h5>
-            <ul>
+            <ul class="list-unstyled">
               <li>Characters</li>
               <li>Comics</li>
               <li>Movies</li>
@@ -81,7 +89,7 @@ export default {
           </div>
           <div id="shop">
             <h5>SHOP</h5>
-            <ul>
+            <ul class="list-unstyled">
               <li>Shop DC</li>
               <li>Shop DC Collectibles</li>
             </ul>
@@ -89,7 +97,7 @@ export default {
         </div>
         <div id="dc" class="m_right">
           <h5>DC</h5>
-          <ul>
+          <ul class="list-unstyled">
             <li>Terms Of Use</li>
             <li>Privacy policy(new)</li>
             <li>Ad choices</li>
@@ -105,7 +113,7 @@ export default {
         </div>
         <div id="sites">
           <h5>SITES</h5>
-          <ul>
+          <ul class="list-unstyled">
             <li>Terms Of Use</li>
             <li>Privacy policy(new)</li>
             <li>Ad choices</li>
@@ -131,7 +139,7 @@ export default {
   </footer>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
 @use "/node_modules/bootstrap/scss/bootstrap.scss";
 @use "./styles/style.scss";
 

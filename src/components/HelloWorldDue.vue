@@ -1,15 +1,15 @@
 <script>
 export default {
-    name: "HelloWorld"
+    name: "HelloWorldDue"
 }
 </script>
 
 <template>
-    <h2>Ciao mondo</h2>
+    <h2>Ciao mondo due</h2>
 </template>
 
 <style scoped>
 h2 {
-  background-color: red;
+  background-color: blue;
 }
 </style>
