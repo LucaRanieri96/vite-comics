@@ -8,11 +8,15 @@
   gap: 1rem;
   a {
     text-decoration: none;
+    color: rgb(92, 92, 92);
+    font-weight: 500;
+    height: 100%;
+    &:hover{
+      cursor: pointer;
+      color: #0282f9;
+      border-bottom: 4px solid #0282f9;
+    }
   }
-}
-
-.logo {
-  max-height: 100px;
 }
 
 header {
