@@ -1,0 +1,50 @@
+.nav {
+  gap: 1rem;
+  a {
+    text-decoration: none;
+  }
+}
+
+.logo {
+  max-height: 100px;
+}
+
+header {
+  background-color: white;
+}
+
+.main_top {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+.main_bottom {
+  background-color: #0282f9;
+  color: white;
+  img {
+    height: 50%;
+  }
+}
+
+.footer_top {
+  background-image: url("./assets/img/footer-bg.jpg");
+  color: white;
+  ul {
+    list-style-type: none;
+  }
+}
+
+.footer_bottom {
+  padding: 1.5rem 0;
+  background-color: #303030;
+  color: white;
+}
+
+#sign_button {
+  padding: 1rem;
+  border: 2px solid #0282f9;
+}
+
+.blue{
+  color: #0282f9;
+}
