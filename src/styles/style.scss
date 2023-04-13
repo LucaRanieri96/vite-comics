@@ -37,6 +37,11 @@ header {
   color: white;
   ul {
     list-style-type: none;
+    color: grey;
+    li:hover{
+      color: white;
+      cursor: pointer;
+    }
   }
 }
 

@@ -10,7 +10,7 @@ export default {
       <div class="container d-flex gap-5 bg_dc py-5">
         <div>
           <div id="dc_comics">
-            <h5>DC COMICS</h5>
+            <h4>DC COMICS</h4>
             <ul class="list-unstyled">
               <li>Characters</li>
               <li>Comics</li>
@@ -22,7 +22,7 @@ export default {
             </ul>
           </div>
           <div id="shop">
-            <h5>SHOP</h5>
+            <h4>SHOP</h4>
             <ul class="list-unstyled">
               <li>Shop DC</li>
               <li>Shop DC Collectibles</li>
@@ -30,7 +30,7 @@ export default {
           </div>
         </div>
         <div id="dc">
-          <h5>DC</h5>
+          <h4>DC</h4>
           <ul class="list-unstyled">
             <li>Terms Of Use</li>
             <li>Privacy policy(new)</li>
@@ -46,7 +46,7 @@ export default {
           </ul>
         </div>
         <div id="sites">
-          <h5>SITES</h5>
+          <h4>SITES</h4>
           <ul class="list-unstyled">
             <li>Terms Of Use</li>
             <li>Privacy policy(new)</li>
