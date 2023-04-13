@@ -61,7 +61,7 @@ export default {
       <div class="container d-flex justify-content-between">
         <div id="sign_button">SIGN-UP NOW!</div>
         <div class="d-flex align-items-center gap-2">
-          <div class="blue"><strong>FOLLOW US</strong></div>
+          <div class="blue me-3"><strong>FOLLOW US</strong></div>
           <img src="../assets/img/footer-facebook.png" alt="">
           <img src="../assets/img/footer-periscope.png" alt="">
           <img src="../assets/img/footer-pinterest.png" alt="">
