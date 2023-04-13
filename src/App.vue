@@ -1,42 +1,22 @@
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import HelloWorldDue from './components/HelloWorldDue.vue'
+import SiteHeader from './components/SiteHeader.vue'
+
 export default {
   components: {
-    HelloWorld,
-    HelloWorldDue
+    SiteHeader,
   },
   data() {
     return {
-      message: "Hello world with Vite!",
+      
     };
   },
 };
 </script>
 
 <template>
-  <!-- <HelloWorld></HelloWorld>
-  <HelloWorldDue></HelloWorldDue> -->
-  <header id="app_header" class="py-2">
-    <div class="container d-flex align-items-center justify-content-between">
-      <div class="logo">
-        <img src="./assets/img/dc-logo.png" alt="" />
-      </div>
-      <div class="nav">
-        <div><a href="#">CHARACTERS</a></div>
-        <div><a href="#">COMICS</a></div>
-        <div><a href="#">MOVIES</a></div>
-        <div><a href="#">TV</a></div>
-        <div><a href="#">GAMES</a></div>
-        <div><a href="#">COLLECTIBLES</a></div>
-        <div><a href="#">VIDEOS</a></div>
-        <div><a href="#">FANS</a></div>
-        <div><a href="#">NEWS</a></div>
-        <div><a href="#">SHOP</a></div>
-      </div>
-    </div>
-  </header>
 
+  <SiteHeader></SiteHeader>
+  
   <main id="app_main">
     <div class="main_top">
       <div class="container">
