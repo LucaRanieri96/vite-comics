@@ -132,7 +132,7 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@use "./styles/style.scss";
 @use "/node_modules/bootstrap/scss/bootstrap.scss";
+@use "./styles/style.scss";
 
 </style>
