@@ -1,30 +1,67 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+export default {
+  data() {
+    return {
+      message: "Hello world with Vite!",
+    };
+  },
+};
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <header id="app_header">
+    <div class="container">
+      <div class="logo">
+        <img src="./assets/img/dc-logo.png" alt="" />
+      </div>
+      <div class="nav">
+        <div><a href="#">CHARACTERS</a></div>
+        <div><a href="#">COMICS</a></div>
+        <div><a href="#">MOVIES</a></div>
+        <div><a href="#">TV</a></div>
+        <div><a href="#">GAMES</a></div>
+        <div><a href="#">COLLECTIBLES</a></div>
+        <div><a href="#">VIDEOS</a></div>
+        <div><a href="#">FANS</a></div>
+        <div><a href="#">NEWS</a></div>
+        <div><a href="#">SHOP</a></div>
+      </div>
+    </div>
+  </header>
+
+  <main id="app_main">
+    <div class="container_main">
+      <div class="main_content">
+        <h3>Content goes here</h3>
+      </div>
+    </div>
+    <div class="blue_banner">
+      <div>
+        <img src="./assets/img/buy-comics-digital-comics.png" alt="">
+        <span>Digital Comics</span>
+      </div>
+      <div>
+        <img src="./assets/img/buy-comics-merchandise.png" alt="">
+        <span>Merchandise</span>
+      </div>
+      <div>
+        <img src="./assets/img/buy-comics-shop-locator.png" alt="">
+        <span>Shop location</span>
+      </div>
+      <div>
+        <img src="./assets/img/buy-comics-subscriptions.png" alt="">
+        <span>Subscription</span>
+      </div>
+      <div>
+        <img src="./assets/img/buy-dc-power-visa.svg" alt="">
+        <span>DC Visa</span>
+      </div>
+    </div>
+  </main>
+
+  
+
+  <footer id="app_footer"></footer>
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
+<style scoped></style>
