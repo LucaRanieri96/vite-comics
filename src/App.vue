@@ -14,6 +14,9 @@ export default {
       
     };
   },
+  methods:{
+    
+  }
 };
 </script>
 
@@ -26,6 +29,7 @@ export default {
 </template>
 
 <style lang="scss">
+
 @use "/node_modules/bootstrap/scss/bootstrap.scss";
 @use "./styles/style.scss";
 

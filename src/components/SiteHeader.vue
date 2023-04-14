@@ -1,6 +1,63 @@
 <script>
 export default {
-    name: "SiteHeader"
+    name: "SiteHeader",
+    data(){
+      return {
+        menu: [
+          {
+            text: 'CHARACTERS',
+            href: '#',
+            currentPage: false,
+          },
+          {
+            text: 'COMICS',
+            href: '#',
+            currentPage: false,
+          },
+          {
+            text: 'MOVIES',
+            href: '#',
+            currentPage: false,
+          },
+          {
+            text: 'TV',
+            href: '#',
+            currentPage: false,
+          },
+          {
+            text: 'GAMES',
+            href: '#',
+            currentPage: false,
+          },
+          {
+            text: 'COLLECTIBLES',
+            href: '#',
+            currentPage: false,
+          },
+          {
+            text: 'VIDEOS',
+            href: '#',
+            currentPage: false,
+          },
+          {
+            text: 'FANS',
+            href: '#',
+            currentPage: false,
+          },
+          {
+            text: 'NEWS',
+            href: '#',
+            currentPage: false,
+          },
+          {
+            text: 'SHOP',
+            href: '#',
+            currentPage: false,
+          },
+        ]
+
+      }
+    }
 }
 </script>
 
