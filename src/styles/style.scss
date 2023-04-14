@@ -1,4 +1,4 @@
-@use './partials/variables.scss' as *;
+
 
 * {
   font-family: "Roboto", sans-serif;
@@ -6,24 +6,24 @@
   margin: 0;
 }
 
-.nav {
-  gap: 1rem;
-  a {
-    text-decoration: none;
-    color: rgb(92, 92, 92);
-    font-weight: 500;
-    height: 100%;
-    &:hover{
-      cursor: pointer;
-      color: $primary;
-      border-bottom: 4px solid $primary;
-    }
-  }
-}
+// .nav {
+//   gap: 1rem;
+//   a {
+//     text-decoration: none;
+//     color: rgb(92, 92, 92);
+//     font-weight: 500;
+//     height: 100%;
+//     &:hover{
+//       cursor: pointer;
+//       color: $primary;
+//       border-bottom: 4px solid $primary;
+//     }
+//   }
+// }
 
-header {
-  background-color: white;
-}
+// header {
+//   background-color: white;
+// }
 
 .main_top {
   background-color: #1c1c1c;
