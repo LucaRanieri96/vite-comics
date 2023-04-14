@@ -68,8 +68,8 @@ export default {
         <img src="../assets/img/dc-logo.png" alt="" />
       </div>
       <div class="nav">
-        <div><a href="#">CHARACTERS</a></div>
-        <div><a href="#">COMICS</a></div>
+        <div v-for="item in menu"><a href="#">{{ item.text }}</a></div>
+        <!-- <div><a href="#">COMICS</a></div>
         <div><a href="#">MOVIES</a></div>
         <div><a href="#">TV</a></div>
         <div><a href="#">GAMES</a></div>
@@ -77,7 +77,7 @@ export default {
         <div><a href="#">VIDEOS</a></div>
         <div><a href="#">FANS</a></div>
         <div><a href="#">NEWS</a></div>
-        <div><a href="#">SHOP</a></div>
+        <div><a href="#">SHOP</a></div> -->
       </div>
     </div>
   </header>
