@@ -46,7 +46,7 @@ export default {
       <div class="container">
         <div class="row justify-content-evenly">
           <div class="col-2 d-flex align-items-center" v-for='item in banner'>
-            <img src="getImageUrl(item.src)" alt=""/>
+            <img :src="getImageUrl(item.src)" alt=""/>
             <div class="ms-1">{{item.text}}</div>
           </div>
           <!-- <div class="col-2 d-flex align-items-center">
