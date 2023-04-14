@@ -1,7 +1,7 @@
 <script>
 import SiteHeader from './components/SiteHeader.vue'
-import SiteMain from './components/SiteBanner.vue'
-import SiteBanner from './components/SiteMain.vue'
+import SiteMain from './components/SiteMain.vue'
+import SiteBanner from './components/SiteBanner.vue'
 import SiteFooter from './components/SiteFooter.vue'
 
 export default {

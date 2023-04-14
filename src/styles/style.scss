@@ -1,4 +1,4 @@
-
+@use "../styles/partials/_variables.scss" as *;
 
 * {
   font-family: "Roboto", sans-serif;
@@ -12,7 +12,7 @@
 }
 
 .main_bottom {
-  background-color: #0282f9;
+  background-color: $primary;
   color: white;
   img {
     height: 50%;
