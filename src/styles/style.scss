@@ -7,13 +7,13 @@
 }
 
 .main_top {
-  background-color: #1c1c1c;
-  color: white;
+  background-color: $darker;
+  color: $light;
 }
 
 .main_bottom {
   background-color: $primary;
-  color: white;
+  color: $light;
   img {
     height: 50%;
   }
@@ -21,12 +21,12 @@
 
 .footer_top {
   background-image: url("./assets/img/footer-bg.jpg");
-  color: white;
+  color: $light;
   ul {
     list-style-type: none;
     color: grey;
     li:hover{
-      color: white;
+      color: $light;
       cursor: pointer;
     }
   }
@@ -34,20 +34,20 @@
 
 .footer_bottom {
   padding: 1.5rem 0;
-  background-color: #303030;
-  color: white;
+  background-color: $dark;
+  color: $light;
 }
 
 #sign_button {
   padding: 1rem;
-  border: 2px solid #0282f9;
+  border: 2px solid $primary;
   &:hover{
     cursor: pointer;
   }
 }
 
 .blue {
-  color: #0282f9;
+  color: $primary;
   &:hover{
     cursor: pointer;
   }
