@@ -1,7 +1,4 @@
-export default {
-  data(){
-
-    comics = [
+export default [
       {
         thumb: "https://www.coverbrowser.com/image/action-comics/1-1.jpg",
         price: "$19.99",
@@ -84,7 +81,4 @@ export default {
         series: "Catwoman",
         type: "graphic novel",
       },
-    ]
-
-  }
-};
+    ];
