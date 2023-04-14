@@ -34,51 +34,51 @@ export default [
       },
       {
         thumb:
-          "https://static.wikia.nocookie.net/marvel_dc/images/5/50/Batman_Beyond_v.1_1.jpg/revision/latest?cb=20080809201655",
+          "https://www.panini.it/media/catalog/product/cache/a5b5dd3adfe0d321084804c738f29601/m/1/m1tpin068isbn_0.jpg",
         price: "$2.99",
         series: "Batman Beyond",
         type: "comic book",
       },
       {
         thumb:
-          "https://static.wikia.nocookie.net/marvel_dc/images/0/0d/Batman_Superman_Vol_1_1.jpg/revision/latest/scale-to-width-down/1200?cb=20130627211607",
+          "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/A1NpE2U-BCL.jpg",
         price: "$3.99",
         series: "Batman/Superman",
         type: "comic book",
       },
       {
         thumb:
-          "https://static.wikia.nocookie.net/marvel_dc/images/c/cf/Batman_Superman_Annual_Vol_2_1.jpg/revision/latest?cb=20200929145132",
+          "https://i0.wp.com/batman-news.com/wp-content/uploads/2021/08/Batman-Superman-2021-Annual-1.jpg?fit=780%2C1200&quality=80&strip=info&ssl=1",
         price: "$4.99",
         series: "Batman/Superman Annual",
         type: "comic book",
       },
       {
         thumb:
-          "https://static.wikia.nocookie.net/marvel_dc/images/5/54/Batman_The_Joker_War_Zone_Vol_1_1.jpg/revision/latest?cb=20200929124651",
+          "https://fumettologica.it/wp-content/uploads/2020/06/quarto-mondo-kirby.jpg",
         price: "$5.99",
-        series: "Batman: The Joker War Zone",
+        series: "La saga del Quarto Mondo",
         type: "comic book",
       },
       {
         thumb:
-          "https://static.wikia.nocookie.net/marvel_dc/images/6/64/Batman_Three_Jokers_Collected.jpg/revision/latest?cb=20201123054610",
+          "https://fumettologica.it/wp-content/uploads/2019/11/lanterna-verde-freccia-verde.jpg",
         price: "$6.99",
-        series: "Batman: Three Jokers",
+        series: "Lanterna Verde/Freccia Verde",
         type: "comic book",
       },
       {
         thumb:
-          "https://static.wikia.nocookie.net/marvel_dc/images/f/f8/Batman_White_Knight_Presents_Harley_Quinn_Vol_1_1.jpg/revision/latest?cb=20201124094800",
+          "https://fumettologica.it/wp-content/uploads/2020/06/legione-dei-supereroi-grande-oscurita.jpg",
         price: "$4.99",
-        series: "Batman: White Knight Presents: Harley Quinn",
+        series: "Legione dei Super-Eroi: La saga della grande oscurità",
         type: "comic book",
       },
       {
         thumb:
-          "https://static.wikia.nocookie.net/marvel_dc/images/c/c8/Catwoman_Vol_2_1.jpg/revision/latest?cb=20160303223223",
+          "https://fumettologica.it/wp-content/uploads/2020/03/justice-league-international-1.jpg",
         price: "$16.99",
-        series: "Catwoman",
+        series: "Justice League International",
         type: "graphic novel",
       },
     ];
